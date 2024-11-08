@@ -37,22 +37,28 @@ class Filters extends BaseConfig
         'before' => [
             'filtermahasiswa' => [
                 'except' => [
-                    'auth', 'auth/*',
-                    'home', 'home/*',
+                    'auth',
+                    'auth/*',
+                    'home',
+                    'home/*',
                     '/'
                 ]
             ],
             'filterstaf' => [
                 'except' => [
-                    'auth', 'auth/*',
-                    'Home', 'Home/*',
+                    'auth',
+                    'auth/*',
+                    'Home',
+                    'Home/*',
                     '/'
                 ]
             ],
             'filterdosen' => [
                 'except' => [
-                    'auth', 'auth/*',
-                    'Home', 'Home/*',
+                    'auth',
+                    'auth/*',
+                    'Home',
+                    'Home/*',
                     '/'
                 ]
             ],
@@ -60,36 +66,52 @@ class Filters extends BaseConfig
         'after' => [
             'filtermahasiswa' => [
                 'except' => [
-                    'auth', 'auth/*',
-                    'Home', 'Home/*',
+                    'auth',
+                    'auth/*',
+                    'Home',
+                    'Home/*',
                     '/',
-                    'DashboardMahasiswa', 'DashboardMahasiswa/*',
-                    'Pendaftaran', 'Pendaftaran/*',
+                    'DashboardMahasiswa',
+                    'DashboardMahasiswa/*',
+                    'Pendaftaran',
+                    'Pendaftaran/*',
                 ]
             ],
             'filterstaf' => [
                 'except' => [
-                    'Auth', 'Auth/*',
-                    'Home', 'Home/*',
+                    'Auth',
+                    'Auth/*',
+                    'Home',
+                    'Home/*',
                     '/',
-                    'DashboardStaf', 'DashboardStaf/*',
-                    'Persyaratan', 'Persyaratan/*',
-                    'Dosen', 'Dosen/*',
-                    'Mahasiswa', 'Mahasiswa/*',
-                    'Staf', 'Staf/*',
-                    'Berkas', 'Berkas/*',
-                    'Tendik', 'Tendik/*',
+                    'DashboardStaf',
+                    'DashboardStaf/*',
+                    'Persyaratan',
+                    'Persyaratan/*',
+                    'Dosen',
+                    'Dosen/*',
+                    'Mahasiswa',
+                    'Mahasiswa/*',
+                    'Staf',
+                    'Staf/*',
+                    'Berkas',
+                    'Berkas/*',
+                    'Tendik',
+                    'Tendik/*',
                 ]
             ],
             'filterdosen' => [
                 'except' => [
-                    'Auth', 'Auth/*',
-                    'Home', 'Home/*',
+                    'Auth',
+                    'Auth/*',
+                    'Home',
+                    'Home/*',
                     '/',
-                    'DashboardDosen', 'DashboardDosen/*',
+                    'DashboardDosen',
+                    'DashboardDosen/*',
                 ]
             ],
-            'toolbar',
+            // 'toolbar',
         ],
     ];
 
