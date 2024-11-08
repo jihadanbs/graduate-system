@@ -1,0 +1,221 @@
+INFO - 2023-05-18 14:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 14:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:08:13 --> Undefined index: pembimbing_ilmu
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 101.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_ilmu', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:09:26 --> Undefined index: nama_dosen
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 101.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_dosen', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:11:02 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 113.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:11:09 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 113.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:11:29 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 113.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:12:04 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 113.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:12:46 --> Illegal string offset 'nama_dosen'
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 101.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'nama_dosen\'', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:12:52 --> Invalid argument supplied for foreach()
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 112.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:14:11 --> Array to string conversion
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 100.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(29): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:25:44 --> Undefined variable: submenu
+in APPPATH\Views\v_template_staf.php on line 166.
+ 1 APPPATH\Views\v_template_staf.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submenu', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php', 166, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 5 APPPATH\Controllers\Persyaratan.php(23): view('v_template_staf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Persyaratan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persyaratan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-18 15:25:50 --> Undefined variable: submenu
+in APPPATH\Views\v_template_staf.php on line 166.
+ 1 APPPATH\Views\v_template_staf.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submenu', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php', 166, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 5 APPPATH\Controllers\Persyaratan.php(23): view('v_template_staf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Persyaratan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persyaratan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-18 15:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-18 15:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

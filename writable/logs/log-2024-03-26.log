@@ -1,0 +1,249 @@
+INFO - 2024-03-26 04:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:10:10 --> Undefined array key "file_berita_acara"
+in APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php on line 50.
+ 1 APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_berita_acara"', 'C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/berkas/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/berkas/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Berkas.php(28): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Berkas->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:10:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 51.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(51): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-26 04:10:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 123.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(123): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:10:41 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 51.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(51): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-26 04:10:41 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 123.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(123): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:14:45 --> Undefined array key "file_berita_acara"
+in APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php on line 50.
+ 1 APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_berita_acara"', 'C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/berkas/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/berkas/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Berkas.php(28): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Berkas->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:16:04 --> Undefined array key "id_tendik"
+in APPPATH\Views\staf\v_tendik.php on line 43.
+ 1 APPPATH\Views\staf\v_tendik.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_tendik"', 'C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_tendik.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_tendik.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_tendik', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_tendik')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Tendik.php(24): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Tendik->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tendik))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:19:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 51.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(51): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-26 04:19:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 123.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(123): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:19:21 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 51.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(51): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-26 04:19:21 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_detail_wisudawan.php on line 123.
+ 1 APPPATH\Views\staf\v_detail_wisudawan.php(123): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_detail_wisudawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_detail_wisudawan', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_detail_wisudawan')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(107): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->detailWisudawan('20220411')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 04:20:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_cek_pendaftaran_masuk.php on line 51.
+ 1 APPPATH\Views\staf\v_cek_pendaftaran_masuk.php(51): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_cek_pendaftaran_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_cek_pendaftaran_masuk', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_cek_pendaftaran_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(58): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->cekPendaftaranMasuk('20220259')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-26 04:20:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\staf\v_cek_pendaftaran_masuk.php on line 123.
+ 1 APPPATH\Views\staf\v_cek_pendaftaran_masuk.php(123): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\v_cek_pendaftaran_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_cek_pendaftaran_masuk', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/v_cek_pendaftaran_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\DashboardStaf.php(58): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardStaf->cekPendaftaranMasuk('20220259')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardStaf))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-26 04:21:10 --> Undefined array key "file_berita_acara"
+in APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php on line 50.
+ 1 APPPATH\Views\staf\berkas\v_daftar_mahasiswa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_berita_acara"', 'C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\staf\\berkas\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/berkas/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/berkas/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Berkas.php(28): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Berkas->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-26 04:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 04:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

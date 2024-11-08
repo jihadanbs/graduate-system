@@ -1,0 +1,36 @@
+{
+  "name": "paper-css",
+  "version": "0.4.1",
+  "description": "Paper CSS for happy printing",
+  "files": [
+    "paper.css",
+    "paper.min.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognitom/paper-css.git"
+  },
+  "keywords": [
+    "css",
+    "print",
+    "pdf",
+    "cli"
+  ],
+  "author": "Tsutomu Kawamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognitom/paper-css/issues"
+  },
+  "homepage": "https://github.com/cognitom/paper-css",
+  "devDependencies": {
+    "chrome-headless-render-pdf": "^1.7.1",
+    "clean-css-cli": "^4.1.11",
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "build": "npm run minify && npm run export",
+    "minify": "cleancss paper.css -o paper.min.css",
+    "preview": "live-server examples/receipt.html",
+    "export": "chrome-headless-render-pdf --url file://$PWD/examples/receipt.html --pdf images/receipt.pdf --paper-width 8.27 --paper-height 5.83"
+  }
+}

@@ -1,0 +1,568 @@
+INFO - 2023-05-17 12:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 12:33:44 --> Undefined property: App\Controllers\Dosen::$ModelPersyaratan
+in APPPATH\Controllers\Dosen.php on line 21.
+ 1 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dosen::$ModelPersyaratan', 'C:\\wamp64\\www\\graduate-ci4\\app\\Controllers\\Dosen.php', 21, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 12:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 12:39:49 --> Undefined variable: persyaratan
+in APPPATH\Views\staf\v_dosen.php on line 34.
+ 1 APPPATH\Views\staf\v_dosen.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: persyaratan', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_dosen', [], true)
+ 5 APPPATH\Views\v_template_staf.php(240): view('staf/v_dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Dosen.php(24): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 12:40:53 --> Undefined index: id_persyaratan
+in APPPATH\Views\staf\v_dosen.php on line 40.
+ 1 APPPATH\Views\staf\v_dosen.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_persyaratan', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_dosen', [], true)
+ 5 APPPATH\Views\v_template_staf.php(240): view('staf/v_dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Dosen.php(24): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 12:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 12:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 13:00:32 --> Undefined index: id_persyaratan
+in APPPATH\Views\staf\v_dosen.php on line 95.
+ 1 APPPATH\Views\staf\v_dosen.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_persyaratan', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php', 95, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_dosen', [], true)
+ 5 APPPATH\Views\v_template_staf.php(240): view('staf/v_dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Dosen.php(24): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 13:00:50 --> Undefined index: nama_persyaratan
+in APPPATH\Views\staf\v_dosen.php on line 108.
+ 1 APPPATH\Views\staf\v_dosen.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_persyaratan', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php', 108, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\v_dosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/v_dosen', [], true)
+ 5 APPPATH\Views\v_template_staf.php(240): view('staf/v_dosen')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\Dosen.php(24): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dosen->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 13:53:35 --> Cannot call constructor
+in APPPATH\Controllers\BeritaAcara.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\BeritaAcara->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 13:54:45 --> mysqli_sql_exception: Not unique table/alias: 'tbl_dosen' in C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\graduate-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\graduate-ci4\app\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\graduate-ci4\app\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+#6 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+#7 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+#8 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\graduate-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 13:54:45 --> Not unique table/alias: 'tbl_dosen'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', [], false)
+ 5 APPPATH\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 13:55:17 --> mysqli_sql_exception: Not unique table/alias: 'tbl_dosen' in C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\graduate-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\graduate-ci4\app\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\graduate-ci4\app\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+#6 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+#7 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+#8 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\graduate-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 13:55:17 --> Not unique table/alias: 'tbl_dosen'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+LEFT JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', [], false)
+ 5 APPPATH\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 13:55:26 --> mysqli_sql_exception: Not unique table/alias: 'tbl_dosen' in C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\graduate-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\graduate-ci4\app\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\graduate-ci4\app\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+#6 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+#7 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+#8 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\graduate-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 13:55:26 --> Not unique table/alias: 'tbl_dosen'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_agama`', [], false)
+ 5 APPPATH\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 13:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 13:57:25 --> mysqli_sql_exception: Not unique table/alias: 'tbl_dosen' in C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\graduate-ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\graduate-ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\graduate-ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\graduate-ci4\app\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\graduate-ci4\app\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+#6 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+#7 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+#8 C:\wamp64\www\graduate-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\graduate-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 13:57:25 --> Not unique table/alias: 'tbl_dosen'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`id_dosen`=`tbl_mahasiswa`.`id_pembimbing_agama`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`id_dosen`=`tbl_mahasiswa`.`id_pembimbing_agama`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`id_dosen`=`tbl_mahasiswa`.`id_pembimbing_agama`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_prodi` ON `tbl_prodi`.`id_prodi`=`tbl_mahasiswa`.`id_prodi`
+JOIN `tbl_dosen` ON `tbl_dosen`.`nidn`=`tbl_mahasiswa`.`nidn_pembimbing_ilmu`
+JOIN `tbl_dosen` ON `tbl_dosen`.`id_dosen`=`tbl_mahasiswa`.`id_pembimbing_agama`', [], false)
+ 5 APPPATH\Models\ModelBeritaAcara.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\BeritaAcara.php(24): App\Models\ModelBeritaAcara->allDataMahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 13:58:30 --> Undefined index: nidn
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 38.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nidn', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(26): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 13:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 13:58:38 --> Undefined index: nidn
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 38.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nidn', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(26): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:00:14 --> Undefined index: nidn
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 38.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nidn', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(26): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:00:43 --> Undefined index: nama_dosen
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 39.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_dosen', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(26): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:13:22 --> Undefined index: pembimbing_agama
+in APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php on line 42.
+ 1 APPPATH\Views\staf\beritaacara\v_daftar_mahasiswa.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_agama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\staf\\beritaacara\\v_daftar_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('staf/beritaacara/v_daftar_mahasiswa', [], true)
+ 5 APPPATH\Views\v_template_staf.php(247): view('staf/beritaacara/v_daftar_mahasiswa')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_staf.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_staf', [], true)
+ 9 APPPATH\Controllers\BeritaAcara.php(26): view('v_template_staf', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BeritaAcara->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeritaAcara))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 14:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:53:11 --> Undefined index: pembimbing_utama
+in APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php on line 125.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_utama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_terkirim', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_terkirim')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(45): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:55:56 --> Undefined index: pembimbing_utama
+in APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php on line 125.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_utama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_terkirim', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_terkirim')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(49): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:59:35 --> Undefined index: pembimbing_utama
+in APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php on line 125.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_utama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_terkirim', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_terkirim')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(49): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 14:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 14:59:36 --> Undefined index: pembimbing_utama
+in APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php on line 125.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_utama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_terkirim', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_terkirim')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(49): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 15:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 15:00:58 --> Undefined index: pembimbing_utama
+in APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php on line 125.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_terkirim.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_utama', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_terkirim', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_terkirim')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(49): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 15:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 15:01:40 --> Undefined index: pembimbing_kedua
+in APPPATH\Views\mahasiswa\v_pendaftaran_wisuda.php on line 176.
+ 1 APPPATH\Views\mahasiswa\v_pendaftaran_wisuda.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembimbing_kedua', 'C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_wisuda.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\mahasiswa\\v_pendaftaran_wisuda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mahasiswa/v_pendaftaran_wisuda', [], true)
+ 5 APPPATH\Views\v_template_mahasiswa.php(147): view('mahasiswa/v_pendaftaran_wisuda')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\wamp64\\www\\graduate-ci4\\app\\Views\\v_template_mahasiswa.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template_mahasiswa', [], true)
+ 9 APPPATH\Controllers\Pendaftaran.php(37): view('v_template_mahasiswa', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 15:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 15:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

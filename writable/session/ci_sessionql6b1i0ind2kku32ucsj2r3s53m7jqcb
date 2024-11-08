@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1711052423;_ci_previous_url|s:57:"http://localhost/graduate-ci4/public/index.php/Auth/login";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:8:"username";s:5:"admin";s:8:"password";s:4:"1234";}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_validation_errors|a:1:{s:5:"level";s:25:"Hak Akses Belum Dipilih !";}
