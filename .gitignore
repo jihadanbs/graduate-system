@@ -1,0 +1,5 @@
+/writable/debugbar/*
+/writable/session/*
+/writable/logs/*
+db-graduate-ci4.sql
+/vendor/
