@@ -74,7 +74,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Universitas YARSI</h2>
+                <h2>Universitas HARAPAN</h2>
                 <p>Persyaratan Pendaftaran Wisuda</p>
             </header>
 

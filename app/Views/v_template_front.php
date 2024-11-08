@@ -95,11 +95,11 @@
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                         <h4>Contact Us</h4>
                         <p>
-                            <b>Universitas YARSI</b> <br>
-                            Menara YARSI, Kav. 13, Jl. Let. Jend. Suprapto. Cempaka Putih, Jakarta Pusat, DKI Jakarta. Indonesia. 10510<br>
+                            <b>Universitas HARAPAN</b> <br>
+                            Menara HARAPAN, Kav. 13, Jl. Let. Jend. Suprapto. Cempaka Merah, Jakarta Selatan, DKI Jakarta. Indonesia. 10510<br>
                             <strong>Phone:</strong> +62 (21) 4206675<br>
-                            <strong>Email:</strong> registrar@yarsi.ac.id<br>
-                            <strong>Fax :</strong> +62 (21) 4243171<br>
+                            <strong>Email:</strong> registrar@harapan.ac.id<br>
+                            <strong>Fax :</strong> +62 (21) 4345561<br>
                         </p>
 
                     </div>
